@@ -48,6 +48,6 @@ Os erros comuns da aplicação são esses:
 
 ## Diagrama
 
-<img width="900" alt="image" src="images\diagrama.png">
+https://www.figma.com/board/PHNHPeLq8Pykr3PxCa3ccl/Untitled?node-id=0-1&t=P8R9JTsbL1EJDRi9-1
 
 
