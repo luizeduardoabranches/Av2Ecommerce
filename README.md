@@ -1,26 +1,39 @@
-# Arquitetura de aplicações WEB - Sistema de Autenticação e Autorização
-
-Esta API permite que você controle acessos a determinadas partes do sistema a partir de ROLES de usuários.
-
-## Sumário
-
-- [Endpoints](#endpoints)
-- [Autenticação](#autenticação)
-- [Erros Comuns](#erros-comuns)
-- [Diagrama](#diagrama)
-- [Exemplos de Uso](#exemplos-de-uso)
+# Arquitetura de aplicações WEB - Prova AV2 projeto E-Commerce
 
 ## Endpoints
 
-GET/moderador: localhost:8080/moderador
+GET/register: localhost:8080/register
 
-GET/admin: localhost:8080/admin 
+POST/login: localhost:8080/login
 
-GET/comum: localhost:8080/comum 
+Enpoints de Admin
+POST/admin: localhost:8080/admin/users
 
-GET/username: localhost:8080/username/{token}
+PUT/admin: localhost:8080/admin/users
 
-POST/user: localhost:8080/login
+DELETE/admin: localhost:8080/admin/users
+
+Enpoints de Gerente
+POST/manager: localhost:8080/manager/users
+
+PUT/manager: localhost:8080/manager/users
+
+DELETE/manager: localhost:8080/admin/users
+
+Enpoints de Vendedor
+POST/seller: localhost:8080/seller/users
+
+PUT/seller: localhost:8080/seller/users
+
+DELETE/seller: localhost:8080/seller/users
+
+Enpoints de Cliente
+POST/customer: localhost:8080/customer/users
+
+PUT/customer: localhost:8080/customer/users
+
+DELETE/customer: localhost:8080/customer/users
+
 
 ## Autenticação
 
@@ -36,17 +49,5 @@ Os erros comuns da aplicação são esses:
 ## Diagrama
 
 <img width="900" alt="image" src="images\diagrama.png">
-
-## Exemplos de uso
-
-<img width="900" alt="image" src="images\login.jpg">
-
-<img width="900" alt="image" src="images\comum.jpg">
-
-<img width="900" alt="image" src="images\moderador.jpg">
-
-<img width="900" alt="image" src="images\admin.jpg">
-
-<img width="900" alt="image" src="images\username.jpg">
 
 
